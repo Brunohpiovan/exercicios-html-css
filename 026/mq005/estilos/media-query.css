@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*
+Typical device brakpoints
+''''''''''''''''''''''''''''''
+celular:600 a 768 px
+tablet: 768 a 992 px
+desktop: 992 a 1200px
+tv: acima de 1200px
+''''''''''''''''''''''''''''''''
+
+*/
+
+@media screen and (min-width:786px){
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+    menu > ul >li{
+        display: inline-block;
+    }
+    menu > ul >li >a{
+        border-radius: 5px;
+    }
+
+    main{
+        width: 768px;
+    }
+}
